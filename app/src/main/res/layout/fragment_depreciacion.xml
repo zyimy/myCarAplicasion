@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentDepreciacion">
+
+  <TextView
+
+      android:id="@+id/lblMarcaDepre"
+      android:layout_width="330dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/entrada_personalisada"
+      android:drawableStart="@drawable/ic_icono_modelo"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Marca"
+      android:inputType="textEmailAddress"
+      android:paddingStart="12dp"
+      android:paddingTop="12dp"
+      android:paddingEnd="12dp"
+      android:paddingBottom="12dp"
+      android:textColorHint="#3B8C3B"
+      android:textSize="18sp"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <TextView
+
+      android:id="@+id/lblModeloDepre"
+      android:layout_width="330dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/entrada_personalisada"
+      android:drawableStart="@drawable/ic_baseline_directions_car_24"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Modelo"
+      android:inputType="textEmailAddress"
+      android:paddingStart="12dp"
+      android:paddingTop="12dp"
+      android:paddingEnd="12dp"
+      android:paddingBottom="12dp"
+      android:textColorHint="#3B8C3B"
+      android:textSize="18sp"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <EditText
+      android:id="@+id/lblPrecioDepre"
+      android:layout_width="330dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/entrada_personalisada"
+      android:drawableStart="@drawable/depreciacion"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Precio"
+      android:inputType="textEmailAddress"
+      android:paddingStart="12dp"
+      android:paddingTop="12dp"
+      android:paddingEnd="12dp"
+      android:paddingBottom="12dp"
+      android:textColorHint="#3B8C3B"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <EditText
+      android:id="@+id/lblAnioDepre"
+      android:layout_width="330dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/entrada_personalisada"
+      android:drawableStart="@drawable/ic_anio"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Año"
+      android:inputType="textEmailAddress"
+      android:paddingStart="12dp"
+      android:paddingTop="12dp"
+      android:paddingEnd="12dp"
+      android:paddingBottom="12dp"
+      android:textColorHint="#3B8C3B"
+      tools:ignore="TouchTargetSizeCheck" />
+
+
+  <Button
+      android:id="@+id/btnDepreciacion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="25dp"
+      android:background="@drawable/boton_redondo"
+      android:text="Ver grafico depreciacion"
+      android:textColor="@color/color_proyecto" />
+
+
+</LinearLayout>

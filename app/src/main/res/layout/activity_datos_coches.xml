@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatosCoches">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#7ADC7D"
+        android:drawableLeft="@drawable/ic_atra"
+        android:gravity="center"
+        android:onClick="volverAtras"
+        android:text="Datos Coches"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMotor"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#7ADC7D"
+            android:drawableLeft="@drawable/mimotors"
+            android:onClick="seleccion"
+            android:paddingLeft="5dp"
+            android:text="Motor"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnChasis"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#7ADC7D"
+            android:drawableLeft="@drawable/consumo"
+            android:onClick="seleccion"
+            android:paddingLeft="5dp"
+            android:text="chasis y emisiones"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout
+
+            android:id="@+id/contenedorFragments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

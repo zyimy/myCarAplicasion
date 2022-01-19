@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".InformacionCoche">
+
+    <ViewFlipper
+        android:id="@+id/Fliper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#7ADC7D"
+        android:gravity="center"
+        android:text="Coche"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Modelo:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblModelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Carroceria:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblCarrocerias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Año:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblAnios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Combustible:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblCombustibles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Nª Puertas:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblPuertas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Plazas Homologadas:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblPlazasHomologadas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Acabado:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblAcabado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:text="Pvp:"
+            android:textColor="#0E0E0E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lblPvp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ECE7E7"
+            android:textColor="@color/color_proyecto"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

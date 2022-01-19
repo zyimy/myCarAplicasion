@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+
+
+            <item
+                android:id="@+id/MenuInicio"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Inicio"
+                android:checked="true"/>
+            <item
+                android:id="@+id/menuBuscarCoche"
+                android:icon="@drawable/buscar"
+                android:title="Buscar Coche" />
+            <item
+                android:id="@+id/menuCompararCoche"
+                android:icon="@drawable/comparar"
+                android:title="Comparar coches"  />
+
+            <item
+
+                 android:id="@+id/menuCompararDepreciacion"
+                 android:icon="@drawable/depreciacion"
+                 android:title="Depreciacion"  />
+
+
+    </group>
+
+    <item android:title="Comunicate">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/Compartir"
+                    android:icon="@drawable/ic_compartir"
+                    android:title="Compartir"  />
+
+                <item
+
+                    android:id="@+id/Mail"
+                    android:icon="@drawable/ic_email"
+                    android:title="Enviar mail"  />
+
+
+            </group>
+
+
+
+
+
+</menu>
+    </item>
+</menu>
